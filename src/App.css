@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+body{
+  background-color: black;
+  color: aliceblue;
+  background: rgb(0,21,36);
+background: linear-gradient(90deg, rgba(0,21,36,1) 0%, rgba(15,42,10,1) 39%, rgba(47,47,14,1) 100%);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +41,103 @@
   to {
     transform: rotate(360deg);
   }
+}
+.coin .Name{
+  width: 600px;
+  height:70px;
+   margin: 10px;
+   padding:5.5px;
+   margin-left: 30%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,17,1) 35%, rgba(9,62,73,1) 100%);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.TSupply{
+  width: 900px;
+  height:40px;
+  padding:10px;
+  margin-left: 20%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,17,1) 35%, rgba(9,62,73,1) 100%);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.CSupply{
+  width: 900px;
+  height:40px;
+  margin-top: 10px;
+  padding:10px;
+  margin-left: 20%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,17,1) 35%, rgba(9,62,73,1) 100%);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.Staking{
+  width: 900px;
+  height:40px;
+  margin-top: 10px;
+  padding:10px;
+  margin-left: 20%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,17,1) 35%, rgba(9,62,73,1) 100%);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.Block{
+  width: 900px;
+  height:40px;
+  margin-top: 10px;
+  padding:10px;
+  margin-left: 20%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,17,1) 35%, rgba(9,62,73,1) 100%);
+  border-radius: 15px;
+  text-align: center;
+}
+
+table{
+  text-align: center;
+  width: 80%;
+  min-width: 300px;
+  margin:auto;
+  
+}
+
+th, td{
+  border: 1px solid black;
+  padding:5px;
+}
+th{
+  color: green;
+  background-color:black ;
+}
+
+.id{
+  font-size: 20px;
+  width: 200px;
+
+}
+
+.block{
+  font-size: 20px;
+  width: 200px;
+}
+.amount{
+  font-size: 20px;
+  width: 200px;
+}
+
+.Burn{
+ margin: 40px;
+ background: rgb(0,21,36);
+background: linear-gradient(90deg, rgba(0,21,36,1) 0%, rgba(17,17,0,1) 39%, rgba(73,72,9,1) 100%);
+border-radius: 20px;
+padding: 20px;
+font-size: 30px;
 }
