@@ -6,7 +6,7 @@ function App() {
   const [ totalSupply, setTotalSupply ] = useState() 
   const [ circulatingSupply, setCirculatingSupply ] = useState() 
   const [ staking, setStaking ] = useState() 
-  const [ latestBlock , setLatestBlock ] = useState() 
+  const [ latestBlock , setLatestBlock ] = useState()
    const [ burn , setBurn ] = useState([]) 
    
   useEffect(() => { 
