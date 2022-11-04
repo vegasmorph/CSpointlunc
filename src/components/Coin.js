@@ -13,7 +13,7 @@ function Coin({ TotalSupply, CirculatingSupply, Staking, BlockHeight, Burn }) {
         </div> 
    
         <div className="CSupply"> 
-          <h3> Circ. Supply ------------------------------- {(TotalSupply)-(Staking/1000000)} LUNC</h3> 
+          <h3> Circ. Supply -------------------------------- {(TotalSupply)-(Staking/1000000)} LUNC</h3> 
         </div> 
    
         <div className="Staking"> 
