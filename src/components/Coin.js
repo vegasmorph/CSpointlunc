@@ -9,7 +9,7 @@ function Coin({ TotalSupply, CirculatingSupply, Staking, BlockHeight, Burn }) {
         </div> 
    
         <div className="TSupply"> 
-          <h3>Total Supply ------------------------------- {(TotalSupply)} LUNC</h3> 
+          <h3>Total Supply ------------------------------- {(TotalSupply).tolocaleString()} LUNC</h3> 
         </div> 
    
         <div className="CSupply"> 
