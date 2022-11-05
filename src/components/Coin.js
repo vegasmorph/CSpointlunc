@@ -9,15 +9,15 @@ function Coin({ TotalSupply, CirculatingSupply, Staking, BlockHeight, Burn }) {
         </div> 
    
         <div className="TSupply"> 
-          <h3>Total Supply ------------------------------- {TotalSupply} LUNC</h3> 
+          <h3>Total Supply ------------------------------- {(TotalSupply).toLocaleString('pt-br', {minimumFractionDigits: 2})} LUNC</h3> 
         </div> 
    
         <div className="CSupply"> 
-          <h3> Circ. Supply -------------------------------- {(TotalSupply)-(Staking/1000000)} LUNC</h3> 
+          <h3> Circ. Supply -------------------------------- {((TotalSupply)-(Staking/1000000)).toLocaleString('pt-br', {minimumFractionDigits: 2})} LUNC</h3> 
         </div> 
    
         <div className="Staking"> 
-          <h3>Pool Staking -------------------------------- {Staking/1000000} LUNC</h3> 
+          <h3>Pool Staking -------------------------------- {(Staking/1000000).toLocaleString()} LUNC</h3> 
         </div> 
    
         <div className="Block"> 
