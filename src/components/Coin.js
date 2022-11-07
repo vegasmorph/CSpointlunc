@@ -18,15 +18,7 @@ function Coin({ TotalSupply, CirculatingSupply, Staking, BlockHeight, Burn }) {
    
      
          
-        <div className="Burn">
-        <h3>Last 10 Burn: </h3>
-
-
-        <div>
-
-          
-          </div>
-        </div>
+        
           
       </div> 
       
