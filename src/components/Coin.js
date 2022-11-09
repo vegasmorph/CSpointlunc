@@ -8,9 +8,9 @@ function Coin({ TotalSupply, CirculatingSupply, Staking, BlockHeight, Burn }) {
           
         </div> 
 
-   
+  
         <div className="CSupply"> 
-          <h3>  {parseFloat((TotalSupply)-(Staking/1000000)).toLocaleString('pt-br', {minimumFractionDigits: 2})}</h3> 
+          <h1>  {parseFloat((TotalSupply)-(Staking/1000000)).toLocaleString('pt-br', {minimumFractionDigits: 2})}</h1> 
         </div> 
    
     
