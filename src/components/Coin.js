@@ -4,8 +4,7 @@ function Coin({ TotalSupply, CirculatingSupply, Staking, BlockHeight, Burn }) {
  
     return ( 
       <div className="coin"> 
-        <div className="Name"> 
-          <h1> Luna Classic Circulating supply</h1> 
+        
         </div> 
    
 
