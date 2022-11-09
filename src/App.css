@@ -5,8 +5,8 @@
 body{
   background-color: white;
   color: white;
-  background: rgb(0,21,36);
-background: linear-gradient(90deg, rgba(0,21,36,1) 0%, rgba(15,42,10,1) 39%, rgba(47,47,14,1) 100%);
+  background: white;
+background: white;
 }
 .App-logo {
   height: 40vmin;
@@ -24,10 +24,10 @@ background: linear-gradient(90deg, rgba(0,21,36,1) 0%, rgba(15,42,10,1) 39%, rgb
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
